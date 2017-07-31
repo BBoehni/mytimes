@@ -1,0 +1,31 @@
+
+/*Sizing*/
+
+/*Header Section*/
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+header nav {
+  display: inline-block;
+  width: 500px;
+}
+
+header span {
+  padding-right: 30px;
+}
+
+h1 {
+  color: MediumAquamarine;
+  font-size: 14px;
+  width: 800px;
+  padding-left: 10px;
+}
