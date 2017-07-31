@@ -29,3 +29,40 @@ h1 {
   width: 800px;
   padding-left: 10px;
 }
+/*Body Section*/
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid black;
+}
+
+.column.large {
+  width: 630px;
+  padding-top: 10px;
+}
+
+.column.large div {
+  border: 1px solid black;
+  padding: auto;
+}
+.column.medium {
+  width: 300px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.column.medium div {
+  border: 1px solid black;
+  padding: auto;
+}
+.column.small {
+  width: 240px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.column.small div {
+  border: 1px solid black;
+  padding: auto;
+}
